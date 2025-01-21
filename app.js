@@ -3,6 +3,8 @@ let numeroLimite = 10;
 let numeroSecreto = gerarNumeroAleatorio();
 let tentativa = 1;
 
+console.log("teste")
+
 function exibirTextoNaTela(tag, texto)
 {
     let campo =  document.querySelector(tag);
